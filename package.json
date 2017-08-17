@@ -1,0 +1,35 @@
+{
+  "name": "axis3d-orbit-camera",
+  "version": "1.0.0",
+  "description": "A perspective camera with orbit controls",
+  "main": "index.js",
+  "scripts": {
+    "example": "budo example -p 3000 --live --verbose",
+    "test": ":"
+  },
+  "keywords": [
+    "axis3d",
+    "camera",
+    "orbit",
+    "controls"
+  ],
+  "author": "Joseph Werle <werle@littlstar.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axis3d-inputs": "^1.0.x",
+    "clamp": "^1.0.1",
+    "defined": "^1.0.0",
+    "gl-mat4": "^1.1.4",
+    "gl-quat": "^1.0.0",
+    "gl-vec2": "^1.0.0",
+    "gl-vec3": "^1.0.3"
+  },
+  "devDependencies": {
+    "axis3d": "^0.3.x",
+    "budo": "^10.0.4",
+    "bunny": "^1.0.1",
+    "domready": "^1.0.8",
+    "primitive-cube": "^2.0.1",
+    "stats.js": "^0.17.0"
+  }
+}
